@@ -1,0 +1,1602 @@
+[
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "Norp",
+      "id": 127110,
+      "title": "\u003cp\u003ePupil in 80 days — Day 1\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128114,
+      "commentatorHandle": "orendon",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAs per good materials, check the binary search / two pointers sections in \u003ca href=\"https://codeforces.com/edu/courses\"\u003eCodeforces EDU\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710441286
+  },
+  {
+    "blogEntry": {
+      "rating": 55,
+      "authorHandle": "natalina",
+      "id": 127018,
+      "title": "\u003cp\u003eCodeforces round 933 Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128112,
+      "commentatorHandle": "__Waled",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003enothing to thank for my friend :3. \u003c/p\u003e\u003cp\u003eHave a great day and keep the good spirit :)\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128093,
+      "rating": 0
+    },
+    "timeSeconds": 1710440624
+  },
+  {
+    "blogEntry": {
+      "rating": -4,
+      "authorHandle": "prakriticoder",
+      "id": 127112,
+      "title": "\u003cp\u003eMy ratings for Round 1941 disappeared.\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710440087
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128109,
+      "commentatorHandle": "Sreedhar3210",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI think it could be better if the algorithm to calculate problem ratings is made open so that people can review and improve that.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710439674
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128108,
+      "commentatorHandle": "striker_46",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ewhat about prize\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128096,
+      "rating": 0
+    },
+    "timeSeconds": 1710439128
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128107,
+      "commentatorHandle": "kozliklekarsky",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eA 2400 may solve a 3000 rated problem given enough time. Although maybe not under 2 hours along with all other problems.\u003c/p\u003e\u003cp\u003e(For the sake of the argument, consider for the time being that \u0026quot;3000 rated problem\u0026quot; makes sense as a construct, and the rating of the problem is universally apliable as a means to determine how hard a problem is for some individual)\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128064,
+      "rating": 3
+    },
+    "timeSeconds": 1710439096
+  },
+  {
+    "blogEntry": {
+      "rating": 31,
+      "authorHandle": "wuhudsm",
+      "id": 127087,
+      "title": "\u003cp\u003eInvitation to TheForces Round #28 (Epic-Forces, TheForces-Rated, Prizes!)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128106,
+      "commentatorHandle": "Leaves.Maple",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThe idea of D is simple (just topological sorting), but the time limit is a little bit tight. Passed D 10 min after contest ~.\u003c/p\u003e \u003cdiv class=\"spoiler\"\u003e\u003cb class=\"spoiler-title\"\u003eSpoiler\u003c/b\u003e\u003cdiv class=\"spoiler-content\" style=\"display: none;\"\u003e\u003cpre\u003e\u003ccode\u003e#pragma GCC optimize(\u0026quot;Ofast,unroll-loops\u0026quot;)\n#pragma GCC target(\u0026quot;avx2,bmi,bmi2,popcnt,lzcnt\u0026quot;)\n#define ATCODER 0\n#define NT 0\n#define DEBUG 0\n#define LUANGAO 0\n#include \u0026lt;bits/stdc++.h\u0026gt;\n#include \u0026lt;ext/pb_ds/assoc_container.hpp\u0026gt;\n#include \u0026lt;ext/pb_ds/tree_policy.hpp\u0026gt;\n#if ATCODER\n#include \u0026lt;atcoder/all\u0026gt;\nusing namespace atcoder;\n#endif\n\nusing namespace std;\nusing namespace __gnu_pbds;\n\n#define ull unsigned long long\n#define lp (p \u0026lt;\u0026lt; 1)\n#define rp ((p \u0026lt;\u0026lt; 1)|1)\n#define ll long long\n#define ld long double\n#define pb push_back\n#define all(s) s.begin(), s.end()\n#define sz(x) (int)(x).size()\n#define fastio cin.tie(0) -\u0026gt; sync_with_stdio(0) \n#define pii pair\u0026lt;int, int\u0026gt;\n#define pil pair\u0026lt;int, ll\u0026gt;\n#define pli pair\u0026lt;ll, int\u0026gt;\n#define pll pair\u0026lt;ll, ll\u0026gt;\n#define F(i, a, b) for(int i=(a); i \u0026lt;= (b); ++i)\n#define SUM 0\n#define MAX 1\n#define fi first\n#define se second\n#define il inline\n#define YES cout \u0026lt;\u0026lt; \u0026quot;YES\\n\u0026quot;\n#define Yes cout \u0026lt;\u0026lt; \u0026quot;Yes\\n\u0026quot;\n#define NO cout \u0026lt;\u0026lt; \u0026quot;NO\\n\u0026quot;\n#define No cout \u0026lt;\u0026lt; \u0026quot;No\\n\u0026quot;\n#define ai2 std::array\u0026lt;int, 2\u0026gt;\n#define ai3 std::array\u0026lt;int, 3\u0026gt;\n#define ai4 std::array\u0026lt;int, 4\u0026gt;\n#define al2 std::array\u0026lt;ll, 2\u0026gt;\n#define al3 std::array\u0026lt;ll, 3\u0026gt;\n#define al4 std::array\u0026lt;ll, 4\u0026gt;\n#define cans std::cout \u0026lt;\u0026lt; ans \u0026lt;\u0026lt; \u0026quot;\\n\u0026quot;\n#define pans p(ans)\n#define qans p(ans, '\\n', '\\0')\n#define PQ(TYPE, FUNCTOR) priority_queue\u0026lt;TYPE, vector\u0026lt;TYPE\u0026gt;, FUNCTOR\u0026lt;TYPE\u0026gt;\u0026gt; \n#define HERE printf(\u0026quot;HERE, __LINE__==%d\\n\u0026quot;, __LINE__);\n#define INF 0x3f3f3f3f\n#define INFLL 0x3f3f3f3f3f3f3f3fll\n#define ld long double\n#define fl std::cout \u0026lt;\u0026lt; setprecision(15) \u0026lt;\u0026lt; fixed\n#define BT(x, i) (((x) \u0026amp; (1 \u0026lt;\u0026lt; (i))) \u0026gt;\u0026gt; (i))\n#define BTLL(x, i) (((x) \u0026amp; (1ll \u0026lt;\u0026lt; (i))) \u0026gt;\u0026gt; (i))\nconst ld pi = acosl(-1);\n\nlong long power(long long a, long long b, int mod)\n{\n    long long res=1;\n    while(b\u0026gt;0)\n    {\n        //a=a%mod;(有时候n的值太大了会超出long long的储存，所以要先取余)\n        if(b\u0026amp;1)//\u0026amp;位运算：判断二进制最后一位是0还是1，\u0026amp;的运算规则为前后都是1的时候才是1；\n            res=res*a%mod;\n        b=b\u0026gt;\u0026gt;1;//相当于除以2；\n        a=a*a%mod;\n    }\n    return res;\n}\n\nint MSB(int N) {\n    return N ? 31 - __builtin_clz(N) : std::numeric_limits\u0026lt;int\u0026gt;::min();\n}\n\nint MSB(long long N) {\n    return N ? 63 - __builtin_clzll(N) : std::numeric_limits\u0026lt;long long\u0026gt;::min();\n}\n\ntemplate\u0026lt;typename T\u0026gt;\nvoid p(const T\u0026amp; out, char end=' ', char end2='\\n'){\n    for(const auto\u0026amp; o: out) std::cout \u0026lt;\u0026lt; o \u0026lt;\u0026lt; end;\n    std::cout \u0026lt;\u0026lt; end2;\n}\n\n#if LUANGAO\ntemplate\u0026lt;typename T, T...\u0026gt;\nstruct myinteger_sequence { };\n\ntemplate\u0026lt;typename T, typename S1 = void, typename S2 = void\u0026gt;\nstruct helper{\n    std::string operator()(const T\u0026amp; s){\n        return std::string(s);\n    }\n}; \n\ntemplate\u0026lt;typename T\u0026gt;\nstruct helper\u0026lt;T, decltype((void)std::to_string(std::declval\u0026lt;T\u0026gt;())), typename std::enable_if\u0026lt;!std::is_same\u0026lt;typename std::decay\u0026lt;T\u0026gt;::type, char\u0026gt;::value, void\u0026gt;::type\u0026gt;{\n    std::string operator()(const T\u0026amp; s){\n        return std::to_string(s);\n    }\n};\n\ntemplate\u0026lt;typename T\u0026gt;\nstruct helper\u0026lt;T, void, typename std::enable_if\u0026lt;std::is_same\u0026lt;typename std::decay\u0026lt;T\u0026gt;::type, char\u0026gt;::value, void\u0026gt;::type\u0026gt;{\n    std::string operator()(const T\u0026amp; s){\n        return std::string(1, s);\n    }\n};\n\ntemplate\u0026lt;typename T\u0026gt;\nstruct helper\u0026lt;T, void, typename std::enable_if\u0026lt;std::is_same\u0026lt;typename std::decay\u0026lt;T\u0026gt;::type, __int128\u0026gt;::value, void\u0026gt;::type\u0026gt;{\n    std::string operator()(const T\u0026amp; s){\n        std::function\u0026lt;void(__int128, std::string\u0026amp;)\u0026gt; __print = [\u0026amp;](__int128 x, std::string\u0026amp; tmp){\n            if(x\u0026lt;0){\n                tmp = '-' + tmp;\n                x=-x;\n            }\n            if(x\u0026gt;9)\n                __print(x/10, tmp);\n            tmp += (x%10+'0');\n        };\n        std::string ret;\n        __print(s, ret);\n        return ret;\n    }\n};\n\ntemplate\u0026lt;typename T, typename S1 =void, typename S2 =void\u0026gt;\nstruct seqhelper{\n    const static bool seq = false;\n};\n\ntemplate\u0026lt;typename T\u0026gt;\nstruct seqhelper\u0026lt;T, decltype((void)(std::declval\u0026lt;T\u0026gt;().begin())), decltype((void)(std::declval\u0026lt;T\u0026gt;().end()))\u0026gt;{\n    const static bool seq = !(std::is_same\u0026lt;typename std::decay\u0026lt;T\u0026gt;::type, std::string\u0026gt;::value);\n};\n\ntemplate\u0026lt;std::size_t N, std::size_t... I\u0026gt;\nstruct gen_indices : gen_indices\u0026lt;(N - 1), (N - 1), I...\u0026gt; { };\ntemplate\u0026lt;std::size_t... I\u0026gt;\nstruct gen_indices\u0026lt;0, I...\u0026gt; : myinteger_sequence\u0026lt;std::size_t, I...\u0026gt; { };\n\ntemplate\u0026lt;typename T, typename REDUNDANT = void\u0026gt;\nstruct converter{\n    template\u0026lt;typename H\u0026gt;\n    std::string\u0026amp; to_string_impl(std::string\u0026amp; s, H\u0026amp;\u0026amp; h)\n    {\n        using std::to_string;\n        s += converter\u0026lt;H\u0026gt;().convert(std::forward\u0026lt;H\u0026gt;(h));\n        return s;    \n    }\n\n    template\u0026lt;typename H, typename... T1\u0026gt;\n    std::string\u0026amp; to_string_impl(std::string\u0026amp; s, H\u0026amp;\u0026amp; h, T1\u0026amp;\u0026amp;... t)\n    {\n        using std::to_string;\n        s += converter\u0026lt;H\u0026gt;().convert(std::forward\u0026lt;H\u0026gt;(h)) + \u0026quot;, \u0026quot;;\n        return to_string_impl(s, std::forward\u0026lt;T1\u0026gt;(t)...);\n    }\n\n    template\u0026lt;typename... T1, std::size_t... I\u0026gt;\n    std::string mystring(const std::tuple\u0026lt;T1...\u0026gt;\u0026amp; tup, myinteger_sequence\u0026lt;std::size_t, I...\u0026gt;)\n    {\n        std::string result;\n        int ctx[] = { (to_string_impl(result, std::get\u0026lt;I\u0026gt;(tup)...), 0), 0 };\n        (void)ctx;\n        return result;\n    }\n\n    template\u0026lt;typename... S\u0026gt;\n    std::string mystring(const std::tuple\u0026lt;S...\u0026gt;\u0026amp; tup)\n    {\n        return mystring(tup, gen_indices\u0026lt;sizeof...(S)\u0026gt;{});\n    }\n\n    template\u0026lt;typename S=T\u0026gt;\n    std::string convert(const S\u0026amp; x){\n        return helper\u0026lt;S\u0026gt;()(x);\n    }\n\n    template\u0026lt;typename... S\u0026gt;\n    std::string convert(const std::tuple\u0026lt;S...\u0026gt;\u0026amp; tup){\n        std::string res = std::move(mystring(tup));\n        res = \u0026quot;{\u0026quot; + res + \u0026quot;}\u0026quot;;\n        return res;\n    }\n\n    template\u0026lt;typename S1, typename S2\u0026gt;\n    std::string convert(const std::pair\u0026lt;S1, S2\u0026gt;\u0026amp; x){\n        return \u0026quot;{\u0026quot; + converter\u0026lt;S1\u0026gt;().convert(x.first) + \u0026quot;, \u0026quot; + converter\u0026lt;S2\u0026gt;().convert(x.second) + \u0026quot;}\u0026quot;;\n    }\n};\n\ntemplate\u0026lt;typename T\u0026gt;\nstruct converter\u0026lt;T, typename std::enable_if\u0026lt;seqhelper\u0026lt;T\u0026gt;::seq, void\u0026gt;::type\u0026gt;{\n    template\u0026lt;typename S=T\u0026gt;\n    std::string convert(const S\u0026amp; x){\n        int len = 0;\n        std::string ans = \u0026quot;{\u0026quot;;\n        for(auto it = x.begin(); it != x.end(); ++it){\n            ans += std::move(converter\u0026lt;typename S::value_type\u0026gt;().convert(*it)) + \u0026quot;, \u0026quot;;\n            ++len;\n        }\n        if(len == 0) return \u0026quot;{[EMPTY]}\u0026quot;;\n        ans.pop_back(), ans.pop_back();\n        return ans + \u0026quot;}\u0026quot;;\n    }\n};\n\ntemplate\u0026lt;typename T\u0026gt;\nstd::string luangao(const T\u0026amp; x){\n    return converter\u0026lt;T\u0026gt;().convert(x);\n}\n#define cstr(x) (luangao(x).c_str())\n#endif\n\nstatic std::random_device rd; // random device engine, usually based on /dev/random on UNIX-like systems\n// initialize Mersennes' twister using rd to generate the seed\nstatic std::mt19937_64 rng{rd()}; \n\n//jiangly Codeforces\nint P = 998244353;\nusing i64 = long long;\n// assume -P \u0026lt;= x \u0026lt; 2P\nint norm(int x) {\n    if (x \u0026lt; 0) {\n        x += P;\n    }\n    if (x \u0026gt;= P) {\n        x -= P;\n    }\n    return x;\n}\ntemplate\u0026lt;class T\u0026gt;\nT power(T a, i64 b) {\n    T res = 1;\n    for (; b; b /= 2, a *= a) {\n        if (b % 2) {\n            res *= a;\n        }\n    }\n    return res;\n}\nstruct Z {\n    int x;\n    Z(int x = 0) : x(norm(x)) {}\n    Z(i64 x) : x(norm((int)(x % P))) {}\n    int val() const {\n        return x;\n    }\n    Z operator-() const {\n        return Z(norm(P - x));\n    }\n    Z inv() const {\n        assert(x != 0);\n        return power(*this, P - 2);\n    }\n    Z \u0026amp;operator*=(const Z \u0026amp;rhs) {\n        x = i64(x) * rhs.x % P;\n        return *this;\n    }\n    Z \u0026amp;operator+=(const Z \u0026amp;rhs) {\n        x = norm(x + rhs.x);\n        return *this;\n    }\n    Z \u0026amp;operator-=(const Z \u0026amp;rhs) {\n        x = norm(x - rhs.x);\n        return *this;\n    }\n    Z \u0026amp;operator/=(const Z \u0026amp;rhs) {\n        return *this *= rhs.inv();\n    }\n    friend Z operator*(const Z \u0026amp;lhs, const Z \u0026amp;rhs) {\n        Z res = lhs;\n        res *= rhs;\n        return res;\n    }\n    friend Z operator+(const Z \u0026amp;lhs, const Z \u0026amp;rhs) {\n        Z res = lhs;\n        res += rhs;\n        return res;\n    }\n    friend Z operator-(const Z \u0026amp;lhs, const Z \u0026amp;rhs) {\n        Z res = lhs;\n        res -= rhs;\n        return res;\n    }\n    friend Z operator/(const Z \u0026amp;lhs, const Z \u0026amp;rhs) {\n        Z res = lhs;\n        res /= rhs;\n        return res;\n    }\n    friend std::istream \u0026amp;operator\u0026gt;\u0026gt;(std::istream \u0026amp;is, Z \u0026amp;a) {\n        i64 v;\n        is \u0026gt;\u0026gt; v;\n        a = Z(v);\n        return is;\n    }\n    friend std::ostream \u0026amp;operator\u0026lt;\u0026lt;(std::ostream \u0026amp;os, const Z \u0026amp;a) {\n        return os \u0026lt;\u0026lt; a.val();\n    }\n};\n\ntemplate\u0026lt;typename T\u0026gt;\nT exgcd(T \u0026amp;x, T \u0026amp;y, T a, T b)\n{\n    if(!b)\n    {\n        x=1;\n        y=0;\n        return a;\n    }\n    exgcd(x,y,b,a%b);\n    T t=x;\n    x=y;\n    y=t-a/b*y;\n    return x*a+y*b;\n}\n\n#if NT\n#define MAXN  200005\n \n// stores smallest prime factor for every number\nint spf[MAXN];\nbool notprime[MAXN];\nint prime[MAXN], miu[MAXN], ptot;\nint phi[MAXN];\n\n// Calculating SPF (Smallest Prime Factor) for every\n// number till MAXN.\n// Time Complexity : O(nloglogn)\nvoid sieve()\n{\n    spf[1] = 1;\n    for (int i=2; i\u0026lt;MAXN; i++)\n \n        // marking smallest prime factor for every\n        // number to be itself.\n        spf[i] = i;\n \n    // separately marking spf for every even\n    // number as 2\n    for (int i=4; i\u0026lt;MAXN; i+=2)\n        spf[i] = 2;\n \n    for (int i=3; i*i\u0026lt;MAXN; i++)\n    {\n        // checking if i is prime\n        if (spf[i] == i)\n        {\n            // marking SPF for all numbers divisible by i\n            for (int j=i*i; j\u0026lt;MAXN; j+=i)\n \n                // marking spf[j] if it is not\n                // previously marked\n                if (spf[j]==j)\n                    spf[j] = i;\n        }\n    }\n}\n\nvoid getmiu()\n{\n    memset(notprime, 0, sizeof(notprime));\n    miu[1] = 1;\n    ptot = 0;\n    miu[1] = 1;\n    for(int i = 2; i \u0026lt; MAXN; i++) {\n        if(!notprime[i]) {\n            prime[ptot++] = i;\n            miu[i] = -1;\n        }\n        for(int j = 0; j \u0026lt; ptot \u0026amp;\u0026amp; prime[j] * i \u0026lt; MAXN; j++) {\n            int k = prime[j] * i;\n            notprime[k] = true;\n            if(i % prime[j] == 0) {\n                miu[k] = 0; break;\n            } else {\n                miu[k] = -miu[i];\n            }\n        }\n    }\n}\n\nvoid getphi()\n{\n    int n = MAXN - 1;\n    for (int i = 1; i \u0026lt;= n; i++)\n        phi[i] = i; // 除1外没有数的欧拉函数是本身，所以如果phi[i] = i则说明未被筛到\n    for (int i = 2; i \u0026lt;= n; i++)\n        if (phi[i] == i) // 未被筛到\n            for (int j = i; j \u0026lt;= n; j += i) // 所有含有该因子的数都进行一次操作\n                phi[j] = phi[j] / i * (i - 1);\n}\n\n\ntemplate\u0026lt;typename T\u0026gt;\nvoid facsieve(T x, std::map\u0026lt;T, T\u0026gt;\u0026amp; f)\n{\n    while (x != 1)\n    {\n        f[spf[x]]++;\n        x = x / spf[x];\n    }\n}\n#endif\n\ntemplate\u0026lt;typename T\u0026gt;\nvoid facnaive(T x, std::map\u0026lt;T, T\u0026gt;\u0026amp; f){\n    for (T p = 2; p * p \u0026lt;= x; ++p) {\n        if (x % p == 0) {\n            T k = 1;\n            for (x /= p; x % p == 0; x /= p) ++k;\n            f[p]+=k;\n        }\n    }\n    if (x \u0026gt; 1) f[x]++;\n}\n\nll intsqrt (ll x) {\n    ll ans = 0;\n    for (ll k = 1LL \u0026lt;\u0026lt; 30; k != 0; k /= 2) {\n        if ((ans + k) * (ans + k) \u0026lt;= x) {\n            ans += k;\n        }\n    }\n    return ans;\n}\n\nll safelog(ll x){\n    for(ll i = 63; i \u0026gt;= 0; --i){\n        if(BTLL(x, i)) return i;\n    }\n    return -1;\n}\n\nstruct dsu{\n    int n;\n    int *pa, *dsusz;\n    dsu(int n): n(n){\n        pa = new int[n+1];\n        dsusz = new int[n+1];\n        reset();\n    }\n    int find(int x){\n        if(pa[x] == x) return x;\n        pa[x] = find(pa[x]);\n        return pa[x];\n    }\n    int un(int x, int y, int swapsz=1){\n        int fx = find(x), fy = find(y);\n        if(fx == fy) return -1;\n        if(dsusz[fx] \u0026gt; dsusz[fy] \u0026amp;\u0026amp; swapsz) std::swap(fx, fy);\n        pa[fx] = fy;\n        dsusz[fy] += dsusz[fx];\n        dsusz[fx] = 0;\n        return fy;\n    }\n    int comp(){\n        int st = 0;\n        for(int i = 1; i \u0026lt;= n; ++i){\n            if(pa[i] == i){\n                ++st;\n            }\n        }\n        return st;\n    }\n    void reset(){\n        for(int i = 1; i \u0026lt;= n; ++i){\n            pa[i] = i;\n            dsusz[i] = 1;\n        }\n    }\n    ~dsu(){\n        delete[] pa;\n        delete[] dsusz;\n    }\n};\n\n\ntemplate\u0026lt;typename T=int, typename S=T\u0026gt;\nstruct BIT{\n    bool usep;\n    int n, digits;\n    T* p; //元素类型\n    S* q; //数组类型\n    template\u0026lt;typename SIGNED\u0026gt;\n    SIGNED lowbit(SIGNED x){\n        return x \u0026amp; (-x);    \n    }\n    \n    BIT(int n, T* p=nullptr):n(n), digits(0), p(p){\n        usep = (p != nullptr);\n        q = new S[n+1];\n        memset(q, 0, (n+1)*sizeof(S));\n        getdigits();\n        if(usep) init();\n    }\n    \n    void init(){\n        //O(n)时间内建树\n        for(int i = 1; i \u0026lt;= n; ++i){\n            q[i] += (S)p[i];\n            int j = i + lowbit(i);\n            if(j \u0026lt;= n) {\n                q[j] += q[i];\n            }\n        }       \n    }\n    \n    void add(int x, int k){\n        while(x \u0026lt;= n \u0026amp;\u0026amp; x \u0026gt;= 1){\n            q[x] = q[x] + (S)k;\n            x += lowbit(x);         \n        }\n    }\n    \n    S getsum(int x){\n        S ans = 0;\n        while(x \u0026gt;= 1){\n           ans += q[x];\n           x -= lowbit(x);\n        }           \n        return ans;\n    }\n    \n    void getdigits(){\n        if(digits) return;\n        int tmp = n;\n        while(tmp){\n            tmp \u0026gt;\u0026gt;= 1;\n            digits++;\n        } \n    }\n    \n    int search(S target){\n        //最长前缀和\n        int t = 0;\n        S s = 0;\n        for(int i = digits-1; i \u0026gt;= 0; --i){\n            if((t + (1 \u0026lt;\u0026lt; i) \u0026lt;= n) \u0026amp;\u0026amp; (s + q[t + (1\u0026lt;\u0026lt;i)] \u0026lt;= target)){\n                s += q[t + (1\u0026lt;\u0026lt;i)]; \n                t += (1 \u0026lt;\u0026lt; i);\n            }\n        }\n        return t;\n    }\n    \n    int binsearch(S target){\n        int l = 1, r = n, ans = 0;\n        while(l \u0026lt;= r){\n            int mid = (l + r)/2;\n            if(getsum(mid) == target){\n                ans = mid;\n                l = mid + 1;\n            }else if(getsum(mid) \u0026lt; target){\n                l = mid + 1;\n            }else{\n                r = mid - 1;    \n            }\n        }\n        return ans;     \n    }\n    \n    ~BIT(){\n        delete[] q;\n    }\n};\n\nstd::vector\u0026lt;int\u0026gt; digits(ll x){\n    std::stack\u0026lt;int\u0026gt; st;\n    while(x){\n        st.push(x%10);\n        x/=10;\n    }\n    std::vector\u0026lt;int\u0026gt; res;\n    while(!st.empty()){\n        res.push_back(st.top());\n        st.pop();\n    }\n    return res;\n}\n\nbool isprime(int x){\n    if(x \u0026lt;= 3) return (x!=1);\n    for(int i = 2; i * i \u0026lt;= x; ++i){\n        if(x%i == 0){\n            return false;\n        }\n    }\n    return true;\n}\n\nstruct Comb {\n    int n;\n    std::vector\u0026lt;Z\u0026gt; _fac;\n    std::vector\u0026lt;Z\u0026gt; _invfac;\n    std::vector\u0026lt;Z\u0026gt; _inv;\n    \n    Comb() : n{0}, _fac{1}, _invfac{1}, _inv{0} {}\n    Comb(int n) : Comb() {\n        init(n);\n    }\n    \n    void init(int m) {\n        if (m \u0026lt;= n) return;\n        _fac.resize(m + 1);\n        _invfac.resize(m + 1);\n        _inv.resize(m + 1);\n        \n        for (int i = n + 1; i \u0026lt;= m; i++) {\n            _fac[i] = _fac[i - 1] * i;\n        }\n        _invfac[m] = _fac[m].inv();\n        for (int i = m; i \u0026gt; n; i--) {\n            _invfac[i - 1] = _invfac[i] * i;\n            _inv[i] = _invfac[i] * _fac[i - 1];\n        }\n        n = m;\n    }\n    \n    Z fac(int m) {\n        if (m \u0026gt; n) init(2 * m);\n        return _fac[m];\n    }\n    Z invfac(int m) {\n        if (m \u0026gt; n) init(2 * m);\n        return _invfac[m];\n    }\n    Z inv(int m) {\n        if (m \u0026gt; n) init(2 * m);\n        return _inv[m];\n    }\n    Z binom(int n, int m) {\n        if (n \u0026lt; m || m \u0026lt; 0) return 0;\n        return fac(n) * invfac(m) * invfac(n - m);\n    }\n} comb;\n\n#if !ATCODER\nnamespace atcoder {\nnamespace internal {\n\n#if __cplusplus \u0026gt;= 202002L\n \nusing std::bit_ceil;\n \n#else\n \n// @return same with std::bit::bit_ceil\nunsigned int bit_ceil(unsigned int n) {\n    unsigned int x = 1;\n    while (x \u0026lt; (unsigned int)(n)) x *= 2;\n    return x;\n}\n \n#endif\n \n// @param n `1 \u0026lt;= n`\n// @return same with std::bit::countr_zero\nint countr_zero(unsigned int n) {\n#ifdef _MSC_VER\n    unsigned long index;\n    _BitScanForward(\u0026amp;index, n);\n    return index;\n#else\n    return __builtin_ctz(n);\n#endif\n}\n \n// @param n `1 \u0026lt;= n`\n// @return same with std::bit::countr_zero\nconstexpr int countr_zero_constexpr(unsigned int n) {\n    int x = 0;\n    while (!(n \u0026amp; (1 \u0026lt;\u0026lt; x))) x++;\n    return x;\n}\n\ntemplate \u0026lt;class E\u0026gt; struct csr {\n    std::vector\u0026lt;int\u0026gt; start;\n    std::vector\u0026lt;E\u0026gt; elist;\n    explicit csr(int n, const std::vector\u0026lt;std::pair\u0026lt;int, E\u0026gt;\u0026gt;\u0026amp; edges)\n        : start(n + 1), elist(edges.size()) {\n        for (auto e : edges) {\n            start[e.first + 1]++;\n        }\n        for (int i = 1; i \u0026lt;= n; i++) {\n            start[i] += start[i - 1];\n        }\n        auto counter = start;\n        for (auto e : edges) {\n            elist[counter[e.first]++] = e.second;\n        }\n    }\n};\n\n\n// Reference:\n// R. Tarjan,\n// Depth-First Search and Linear Graph Algorithms\nstruct scc_graph {\n  public:\n    explicit scc_graph(int n) : _n(n) {}\n\n    int num_vertices() { return _n; }\n\n    void add_edge(int from, int to) { edges.push_back({from, {to}}); }\n\n    // @return pair of (# of scc, scc id)\n    std::pair\u0026lt;int, std::vector\u0026lt;int\u0026gt;\u0026gt; scc_ids() {\n        auto g = csr\u0026lt;edge\u0026gt;(_n, edges);\n        int now_ord = 0, group_num = 0;\n        std::vector\u0026lt;int\u0026gt; visited, low(_n), ord(_n, -1), ids(_n);\n        visited.reserve(_n);\n        auto dfs = [\u0026amp;](auto self, int v) -\u0026gt; void {\n            low[v] = ord[v] = now_ord++;\n            visited.push_back(v);\n            for (int i = g.start[v]; i \u0026lt; g.start[v + 1]; i++) {\n                auto to = g.elist[i].to;\n                if (ord[to] == -1) {\n                    self(self, to);\n                    low[v] = std::min(low[v], low[to]);\n                } else {\n                    low[v] = std::min(low[v], ord[to]);\n                }\n            }\n            if (low[v] == ord[v]) {\n                while (true) {\n                    int u = visited.back();\n                    visited.pop_back();\n                    ord[u] = _n;\n                    ids[u] = group_num;\n                    if (u == v) break;\n                }\n                group_num++;\n            }\n        };\n        for (int i = 0; i \u0026lt; _n; i++) {\n            if (ord[i] == -1) dfs(dfs, i);\n        }\n        for (auto\u0026amp; x : ids) {\n            x = group_num - 1 - x;\n        }\n        return {group_num, ids};\n    }\n\n    std::vector\u0026lt;std::vector\u0026lt;int\u0026gt;\u0026gt; scc() {\n        auto ids = scc_ids();\n        int group_num = ids.first;\n        std::vector\u0026lt;int\u0026gt; counts(group_num);\n        for (auto x : ids.second) counts[x]++;\n        std::vector\u0026lt;std::vector\u0026lt;int\u0026gt;\u0026gt; groups(ids.first);\n        for (int i = 0; i \u0026lt; group_num; i++) {\n            groups[i].reserve(counts[i]);\n        }\n        for (int i = 0; i \u0026lt; _n; i++) {\n            groups[ids.second[i]].push_back(i);\n        }\n        return groups;\n    }\n\n  private:\n    int _n;\n    struct edge {\n        int to;\n    };\n    std::vector\u0026lt;std::pair\u0026lt;int, edge\u0026gt;\u0026gt; edges;\n};\n\n}  // namespace internal\n\n#if __cplusplus \u0026gt;= 201703L\n \ntemplate \u0026lt;class S,\n          auto op,\n          auto e,\n          class Fat,\n          auto mapping,\n          auto composition,\n          auto id\u0026gt;\nstruct lazy_segtree {\n    static_assert(std::is_convertible_v\u0026lt;decltype(op), std::function\u0026lt;S(S, S)\u0026gt;\u0026gt;,\n                  \u0026quot;op must work as S(S, S)\u0026quot;);\n    static_assert(std::is_convertible_v\u0026lt;decltype(e), std::function\u0026lt;S()\u0026gt;\u0026gt;,\n                  \u0026quot;e must work as S()\u0026quot;);\n    static_assert(\n        std::is_convertible_v\u0026lt;decltype(mapping), std::function\u0026lt;S(Fat, S)\u0026gt;\u0026gt;,\n        \u0026quot;mapping must work as F(F, S)\u0026quot;);\n    static_assert(\n        std::is_convertible_v\u0026lt;decltype(composition), std::function\u0026lt;Fat(Fat, Fat)\u0026gt;\u0026gt;,\n        \u0026quot;compostiion must work as F(F, F)\u0026quot;);\n    static_assert(std::is_convertible_v\u0026lt;decltype(id), std::function\u0026lt;Fat()\u0026gt;\u0026gt;,\n                  \u0026quot;id must work as F()\u0026quot;);\n \n#else\n \ntemplate \u0026lt;class S,\n          S (*op)(S, S),\n          S (*e)(),\n          class Fat,\n          S (*mapping)(Fat, S),\n          Fat (*composition)(Fat, Fat),\n          Fat (*id)()\u0026gt;\nstruct lazy_segtree {\n \n#endif\n \n  public:\n    lazy_segtree() : lazy_segtree(0) {}\n    explicit lazy_segtree(int n) : lazy_segtree(std::vector\u0026lt;S\u0026gt;(n, e())) {}\n    explicit lazy_segtree(const std::vector\u0026lt;S\u0026gt;\u0026amp; v) : _n(int(v.size())) {\n        size = (int)internal::bit_ceil((unsigned int)(_n));\n        log = internal::countr_zero((unsigned int)size);\n        d = std::vector\u0026lt;S\u0026gt;(2 * size, e());\n        lz = std::vector\u0026lt;Fat\u0026gt;(size, id());\n        for (int i = 0; i \u0026lt; _n; i++) d[size + i] = v[i];\n        for (int i = size - 1; i \u0026gt;= 1; i--) {\n            update(i);\n        }\n    }\n \n    void set(int p, S x) {\n        assert(0 \u0026lt;= p \u0026amp;\u0026amp; p \u0026lt; _n);\n        p += size;\n        for (int i = log; i \u0026gt;= 1; i--) push(p \u0026gt;\u0026gt; i);\n        d[p] = x;\n        for (int i = 1; i \u0026lt;= log; i++) update(p \u0026gt;\u0026gt; i);\n    }\n \n    S get(int p) {\n        assert(0 \u0026lt;= p \u0026amp;\u0026amp; p \u0026lt; _n);\n        p += size;\n        for (int i = log; i \u0026gt;= 1; i--) push(p \u0026gt;\u0026gt; i);\n        return d[p];\n    }\n \n    S prod(int l, int r) {\n        assert(0 \u0026lt;= l \u0026amp;\u0026amp; l \u0026lt;= r \u0026amp;\u0026amp; r \u0026lt;= _n);\n        if (l == r) return e();\n \n        l += size;\n        r += size;\n \n        for (int i = log; i \u0026gt;= 1; i--) {\n            if (((l \u0026gt;\u0026gt; i) \u0026lt;\u0026lt; i) != l) push(l \u0026gt;\u0026gt; i);\n            if (((r \u0026gt;\u0026gt; i) \u0026lt;\u0026lt; i) != r) push((r - 1) \u0026gt;\u0026gt; i);\n        }\n \n        S sml = e(), smr = e();\n        while (l \u0026lt; r) {\n            if (l \u0026amp; 1) sml = op(sml, d[l++]);\n            if (r \u0026amp; 1) smr = op(d[--r], smr);\n            l \u0026gt;\u0026gt;= 1;\n            r \u0026gt;\u0026gt;= 1;\n        }\n \n        return op(sml, smr);\n    }\n \n    S all_prod() { return d[1]; }\n \n    void apply(int p, Fat f) {\n        assert(0 \u0026lt;= p \u0026amp;\u0026amp; p \u0026lt; _n);\n        p += size;\n        for (int i = log; i \u0026gt;= 1; i--) push(p \u0026gt;\u0026gt; i);\n        d[p] = mapping(f, d[p]);\n        for (int i = 1; i \u0026lt;= log; i++) update(p \u0026gt;\u0026gt; i);\n    }\n    void apply(int l, int r, Fat f) {\n        assert(0 \u0026lt;= l \u0026amp;\u0026amp; l \u0026lt;= r \u0026amp;\u0026amp; r \u0026lt;= _n);\n        if (l == r) return;\n \n        l += size;\n        r += size;\n \n        for (int i = log; i \u0026gt;= 1; i--) {\n            if (((l \u0026gt;\u0026gt; i) \u0026lt;\u0026lt; i) != l) push(l \u0026gt;\u0026gt; i);\n            if (((r \u0026gt;\u0026gt; i) \u0026lt;\u0026lt; i) != r) push((r - 1) \u0026gt;\u0026gt; i);\n        }\n \n        {\n            int l2 = l, r2 = r;\n            while (l \u0026lt; r) {\n                if (l \u0026amp; 1) all_apply(l++, f);\n                if (r \u0026amp; 1) all_apply(--r, f);\n                l \u0026gt;\u0026gt;= 1;\n                r \u0026gt;\u0026gt;= 1;\n            }\n            l = l2;\n            r = r2;\n        }\n \n        for (int i = 1; i \u0026lt;= log; i++) {\n            if (((l \u0026gt;\u0026gt; i) \u0026lt;\u0026lt; i) != l) update(l \u0026gt;\u0026gt; i);\n            if (((r \u0026gt;\u0026gt; i) \u0026lt;\u0026lt; i) != r) update((r - 1) \u0026gt;\u0026gt; i);\n        }\n    }\n \n    template \u0026lt;bool (*g)(S)\u0026gt; int max_right(int l) {\n        return max_right(l, [](S x) { return g(x); });\n    }\n    template \u0026lt;class G\u0026gt; int max_right(int l, G g) {\n        assert(0 \u0026lt;= l \u0026amp;\u0026amp; l \u0026lt;= _n);\n        assert(g(e()));\n        if (l == _n) return _n;\n        l += size;\n        for (int i = log; i \u0026gt;= 1; i--) push(l \u0026gt;\u0026gt; i);\n        S sm = e();\n        do {\n            while (l % 2 == 0) l \u0026gt;\u0026gt;= 1;\n            if (!g(op(sm, d[l]))) {\n                while (l \u0026lt; size) {\n                    push(l);\n                    l = (2 * l);\n                    if (g(op(sm, d[l]))) {\n                        sm = op(sm, d[l]);\n                        l++;\n                    }\n                }\n                return l - size;\n            }\n            sm = op(sm, d[l]);\n            l++;\n        } while ((l \u0026amp; -l) != l);\n        return _n;\n    }\n \n    template \u0026lt;bool (*g)(S)\u0026gt; int min_left(int r) {\n        return min_left(r, [](S x) { return g(x); });\n    }\n    template \u0026lt;class G\u0026gt; int min_left(int r, G g) {\n        assert(0 \u0026lt;= r \u0026amp;\u0026amp; r \u0026lt;= _n);\n        assert(g(e()));\n        if (r == 0) return 0;\n        r += size;\n        for (int i = log; i \u0026gt;= 1; i--) push((r - 1) \u0026gt;\u0026gt; i);\n        S sm = e();\n        do {\n            r--;\n            while (r \u0026gt; 1 \u0026amp;\u0026amp; (r % 2)) r \u0026gt;\u0026gt;= 1;\n            if (!g(op(d[r], sm))) {\n                while (r \u0026lt; size) {\n                    push(r);\n                    r = (2 * r + 1);\n                    if (g(op(d[r], sm))) {\n                        sm = op(d[r], sm);\n                        r--;\n                    }\n                }\n                return r + 1 - size;\n            }\n            sm = op(d[r], sm);\n        } while ((r \u0026amp; -r) != r);\n        return 0;\n    }\n \n  private:\n    int _n, size, log;\n    std::vector\u0026lt;S\u0026gt; d;\n    std::vector\u0026lt;Fat\u0026gt; lz;\n \n    void update(int k) { d[k] = op(d[2 * k], d[2 * k + 1]); }\n    void all_apply(int k, Fat f) {\n        d[k] = mapping(f, d[k]);\n        if (k \u0026lt; size) lz[k] = composition(f, lz[k]);\n    }\n    void push(int k) {\n        all_apply(2 * k, lz[k]);\n        all_apply(2 * k + 1, lz[k]);\n        lz[k] = id();\n    }\n};\n\nstruct scc_graph {\npublic:\n    scc_graph() : internal(0) {}\n    explicit scc_graph(int n) : internal(n) {}\n\n    void add_edge(int from, int to) {\n        int n = internal.num_vertices();\n        assert(0 \u0026lt;= from \u0026amp;\u0026amp; from \u0026lt; n);\n        assert(0 \u0026lt;= to \u0026amp;\u0026amp; to \u0026lt; n);\n        internal.add_edge(from, to);\n    }\n\n    std::vector\u0026lt;std::vector\u0026lt;int\u0026gt;\u0026gt; scc() { return internal.scc(); }\n\nprivate:\n    internal::scc_graph internal;\n};\n\n}  // namespace atcoder\n#endif\n\npii op(pii l, pii r){\n    vector\u0026lt;int\u0026gt; f = {l.fi, l.se, r.fi, r.se};\n    sort(all(f), greater\u0026lt;int\u0026gt;());\n    f.erase(unique(all(f)), f.end());\n    if(f.size() \u0026lt;= 1) return {f[0], f[0]};\n    return {f[0], f[1]};\n}\n\npii e(){\n    return {0, 0};\n}\n\nclass Solution {\npublic:\n    ll mergeSort(vector\u0026lt;ll\u0026gt;\u0026amp; record, vector\u0026lt;ll\u0026gt;\u0026amp; tmp, int l, int r) {\n        if (l \u0026gt;= r) {\n            return 0;\n        }\n\n        ll mid = (l + r) / 2;\n        ll inv_count = mergeSort(record, tmp, l, mid) + mergeSort(record, tmp, mid + 1, r);\n        ll i = l, j = mid + 1, pos = l;\n        while (i \u0026lt;= mid \u0026amp;\u0026amp; j \u0026lt;= r) {\n            if (record[i] \u0026lt;= record[j]) {\n                tmp[pos] = record[i];\n                ++i;\n                inv_count += (j - (mid + 1));\n            }\n            else {\n                tmp[pos] = record[j];\n                ++j;\n            }\n            ++pos;\n        }\n        for (ll k = i; k \u0026lt;= mid; ++k) {\n            tmp[pos++] = record[k];\n            inv_count += (j - (mid + 1));\n        }\n        for (ll k = j; k \u0026lt;= r; ++k) {\n            tmp[pos++] = record[k];\n        }\n        copy(tmp.begin() + l, tmp.begin() + r + 1, record.begin() + l);\n        return inv_count;\n    }\n\n    ll reversePairs(vector\u0026lt;ll\u0026gt;\u0026amp; record) {\n        ll n = record.size();\n        vector\u0026lt;ll\u0026gt; tmp(n);\n        return mergeSort(record, tmp, 0, n - 1);\n    }\n};\n\n#define SINGLE 0\n\nvoid debug(const char* p){\n    #if DEBUG\n    freopen(p, \u0026quot;r\u0026quot;, stdin); \n    #else\n    fastio;\n    #endif      \n}\n\nll a[200005], b[200005], f[200005], idx[200005];\n\nvoid solve(int test){\n    int n, times = 0;\n    ll mn = 1e18;\n    cin \u0026gt;\u0026gt; n;\n    vector\u0026lt;vector\u0026lt;int\u0026gt;\u0026gt; o(n+1);\n    F(i, 1, n){\n        cin \u0026gt;\u0026gt; a[i], b[i] = a[i];\n        idx[i] = i;\n        mn = min(a[i], mn);\n    }\n    for(int i = 1, u, v; i \u0026lt;= n-1; ++i){\n        cin \u0026gt;\u0026gt; u \u0026gt;\u0026gt; v;\n        //o[u].insert(v);\n        //o[v].insert(u);\n        o[u].pb(v);\n        o[v].pb(u);\n    }\n\n    function\u0026lt;void(int, int)\u0026gt; dfs = [\u0026amp;](int x, int fa){\n        f[x] = fa;\n        for(int y: o[x]){\n            if(y == fa) continue;\n            dfs(y, x);\n        }\n    };\n\n    dfs(1, 0);\n\n    ll cur = mn;\n    while(times \u0026lt; n - 1){\n        int old = times;\n        vector\u0026lt;int\u0026gt; deg(n+1);\n        queue\u0026lt;int\u0026gt; q;\n        for(int i = 1; i \u0026lt;= n; ++i){\n            if(b[i] != cur || idx[i] != i) continue;\n            //printf(\u0026quot;test==%d, cur==%lld, b[%d]==%lld, f[%d]==%d\\n\u0026quot;, test, cur, i, b[i], i, f[i]);\n            for(int y: o[i]){\n                if(y == f[i]) continue;\n                if(b[y] == cur) ++deg[i];\n            }\n            if(!deg[i]){\n                //printf(\u0026quot;test==%d, cur==%lld, push %d\\n\u0026quot;,test, cur, i);\n                q.push(i);\n            }\n        }\n\n        while(!q.empty()){\n            int fr = q.front();\n            q.pop();\n            if(b[f[fr]] != b[fr]){\n                NO;\n                return;\n            }\n            ++times;\n            //printf(\u0026quot;test==%d, cur%lld, merge fr%d f[fr]%d, times==%d\\n\u0026quot;, test, cur, fr, f[fr], times);\n            deg[f[fr]]--;\n            idx[fr] = f[fr];\n            idx[f[fr]] = f[fr];\n            //printf(\u0026quot;test==%d, f[f[fr]]==%d\\n\u0026quot;,test, f[f[fr]]);\n            if(f[f[fr]] \u0026amp;\u0026amp; b[f[f[fr]]] == b[f[fr]]){\n                //printf(\u0026quot;HERE, test==%d\\n\u0026quot;, test);\n                --deg[f[f[fr]]];\n                if(!deg[f[f[fr]]]){\n                    q.push(f[f[fr]]);\n                }\n            }\n            b[fr] *= 2;\n            b[f[fr]] *= 2;\n        }\n\n        vector\u0026lt;vector\u0026lt;int\u0026gt;\u0026gt; o2(n+1);\n        F(i, 1, n){\n            if(i != idx[i]) continue;\n            for(int nb: o[i]){\n                if(idx[nb] != i){\n                    o2[i].pb(idx[nb]);\n                    o2[idx[nb]].pb(i);\n                }\n            }\n        }\n        F(i, 1, n){\n            sort(all(o2[i]));\n            o2[i].erase(unique(all(o2[i])), o2[i].end());\n        }\n        //printf(\u0026quot;o==%s, o2==%s\\n\u0026quot;, cstr(o), cstr(o2));\n\n        swap(o, o2);\n        cur *= 2;\n        dfs(1, 0);\n\n        if(times == old) break;\n\n        /*\n        int old = times;\n        vector\u0026lt;unordered_set\u0026lt;int\u0026gt;\u0026gt; o2 = o;\n        vector\u0026lt;unordered_set\u0026lt;int\u0026gt;\u0026gt; tmp(n+1);\n        for(int i = 1; i \u0026lt;= n; ++i){\n            if(b[i] != cur) continue;\n            for(int y: o[i]){\n                if(b[y] == b[i]){\n                    tmp[y].insert(i);\n                    tmp[i].insert(y);\n                }\n            }\n        }\n        queue\u0026lt;int\u0026gt; q;\n        for(int i = 1; i \u0026lt;= n; ++i){\n            //printf(\u0026quot;cur==%lld, b[%d]==%lld\\n\u0026quot;, cur, i, b[i]);\n            if(b[i] == cur \u0026amp;\u0026amp; tmp[i].size() == 1){\n                q.push(i);\n            }\n        }\n        while(!q.empty()){\n            int x = q.front();\n            q.pop();\n            if(!tmp[x].size()) break;\n            int ry = 0;\n            for(int y: tmp[x]){\n                ++times;\n                //printf(\u0026quot;tmp[%d/%d]==%s/%s\\n\u0026quot;, x, y, cstr(tmp[x]), cstr(tmp[y]));\n                tmp[y].erase(x);\n                for(int z: tmp[y]){\n                    tmp[z].erase(y);\n                    if(tmp[z].size() == 1){\n                        q.push(z);\n                    }\n                }\n                ry = y;\n            }\n            //printf(\u0026quot;test==%d, times==%d, merge %d %d\\n\u0026quot;, test, times, x, ry);\n            if(o[x].size() \u0026gt; o[ry].size()){\n                swap(x, ry);\n            }\n            b[ry] *= 2;\n            b[x] = 0;\n            for(int nb: o[x]){\n                if(nb == ry) continue;\n                o2[ry].insert(nb);\n                o2[nb].insert(ry);\n                o2[nb].erase(x);\n            }\n            o2[x].clear();\n            tmp[x].clear();\n            tmp[ry].clear();\n        }\n        if(times == old) {\n            break;\n        }\n        */\n    }\n    cout \u0026lt;\u0026lt; (times == n-1 ? \u0026quot;YES\\n\u0026quot; : \u0026quot;NO\\n\u0026quot;);\n}\n\nsigned main(int argc, char** argv){\n    comb.init(1000005);\n    debug(argc==1?\u0026quot;test1.txt\u0026quot;:argv[1]);\n    int t = 1;\n    int test = 1; \n    #if !SINGLE\n    std::cin \u0026gt;\u0026gt; t;\n    #endif\n    while(t--){\n        solve(test++);\n    }\n}\n\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 2
+    },
+    "timeSeconds": 1710438365
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128105,
+      "commentatorHandle": "yellowbeard",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003edownvoteforces\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128092,
+      "rating": -1
+    },
+    "timeSeconds": 1710438275
+  },
+  {
+    "blogEntry": {
+      "rating": 31,
+      "authorHandle": "wuhudsm",
+      "id": 127087,
+      "title": "\u003cp\u003eInvitation to TheForces Round #28 (Epic-Forces, TheForces-Rated, Prizes!)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710438235
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128104,
+      "commentatorHandle": "Amir_Parsa",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI only talked about the announcement, not about the round!\u003c/p\u003e\u003cp\u003eOf course \u003ca class=\"rated-user user-red\" href=\"/profile/Dominater069\" title=\"Grandmaster Dominater069\"\u003eDominater069\u003c/a\u003e's rounds are great!\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128049,
+      "rating": 5
+    },
+    "timeSeconds": 1710438178
+  },
+  {
+    "blogEntry": {
+      "rating": 3,
+      "authorHandle": "wuhudsm",
+      "id": 127102,
+      "title": "\u003cp\u003eTheForces Round #28 (Epic-Forces) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128102,
+      "commentatorHandle": "Byte_Bender_3",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eO(1) solution for \u003ca href=\"https://codeforces.com/gym/105028/submission/251286360\"\u003eA Minimum Black Cells\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 2
+    },
+    "timeSeconds": 1710438126
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128101,
+      "commentatorHandle": "Snapper_001",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eNopes , 120 pointer problem is good\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128083,
+      "rating": 3
+    },
+    "timeSeconds": 1710437796
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128100,
+      "commentatorHandle": "Snapper_001",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e++\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128087,
+      "rating": 0
+    },
+    "timeSeconds": 1710437772
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128099,
+      "commentatorHandle": "Snapper_001",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eOhh i remember,Grredy way seems like sort it and check\u003c/p\u003e\u003cp\u003ebut it there is a little missing information in the question that we not change the order i got this observation in a testcase and aced it\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128098,
+      "rating": 0
+    },
+    "timeSeconds": 1710437755
+  },
+  {
+    "blogEntry": {
+      "rating": 3,
+      "authorHandle": "wuhudsm",
+      "id": 127102,
+      "title": "\u003cp\u003eTheForces Round #28 (Epic-Forces) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710437721
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128098,
+      "commentatorHandle": "Snapper_001",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ei dont know the question name Can you give hint what question it is so that i can say something related to this question\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128078,
+      "rating": 0
+    },
+    "timeSeconds": 1710437680
+  },
+  {
+    "blogEntry": {
+      "rating": 0,
+      "authorHandle": "maulik12",
+      "id": 15816,
+      "title": "\u003cp\u003eProblems on Stack\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128097,
+      "commentatorHandle": "Missing_Voyager",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u003ca href=\"https://codeforces.com/contest/26/problem/B\"\u003ehere is one\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710437342
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128096,
+      "commentatorHandle": "panku_mahajan",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eWe are very sorry for this mistake actually this contest was set by team of coding ninjas not by me so I also suffered the same situation in contest.We are literally sorry for the mistake.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128083,
+      "rating": 0
+    },
+    "timeSeconds": 1710437280
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128095,
+      "commentatorHandle": "galen_colin",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eWhile it's on the docket (though this may be asking for too much at once) — the 3500 cap was introduced four years ago, where the average performance for 2nd place was 3600-3700 (performance for 1st can be used but is somewhat ill-defined). Nowadays, it's 3800-3900 (less so very recently because competition at the top has become very tight and no one person has significantly more rating). \u003c/p\u003e\u003cp\u003eI think it would thus make sense that problem ratings up to 3700 are as \u0026quot;well-defined\u0026quot; now as problem ratings up to 3500 were when the cap was introduced (any 3700 problem would likely have $$$\\leq 3$$$ or $$$4$$$ solves in contest, a similar metric to what 3500 used to mean). Maybe the cap could be raised a bit to make the hardest of problems slightly more distinguishable?\u003c/p\u003e\u003cp\u003e(I have no comment on the lower bound of 800)\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1127824,
+      "rating": 2
+    },
+    "timeSeconds": 1710437163
+  },
+  {
+    "blogEntry": {
+      "rating": 610,
+      "authorHandle": "pajenegod",
+      "id": 126654,
+      "title": "\u003cp\u003eSlowdown bug affecting C++ (64 bit) on Codeforces\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128094,
+      "commentatorHandle": "ehnryx",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ecould it be the windows heap ?\u003c/p\u003e\u003cp\u003e\u003ca href=\"https://stackoverflow.com/questions/36762516/why-does-repeated-memory-allocation-in-windows-slow-down\"\u003ehttps://stackoverflow.com/questions/36762516/why-does-repeated-memory-allocation-in-windows-slow-down\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1125605,
+      "rating": 0
+    },
+    "timeSeconds": 1710436975
+  },
+  {
+    "blogEntry": {
+      "rating": 55,
+      "authorHandle": "natalina",
+      "id": 127018,
+      "title": "\u003cp\u003eCodeforces round 933 Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128093,
+      "commentatorHandle": "Aryannn09",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eyou are such an amazing person, thank you so much (can thank you enough), you even checked why my answer is not working , thanks a ton mate\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128073,
+      "rating": 0
+    },
+    "timeSeconds": 1710436871
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128092,
+      "commentatorHandle": "piaolianggg",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003egive me downvotes!!\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1126019,
+      "rating": -1
+    },
+    "timeSeconds": 1710436762
+  },
+  {
+    "blogEntry": {
+      "rating": 36,
+      "authorHandle": "awoo",
+      "id": 127109,
+      "title": "\u003cp\u003eEducational Codeforces Round 163 [Rated for Div. 2]\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710436060
+  },
+  {
+    "blogEntry": {
+      "rating": 100,
+      "authorHandle": "GlowCheese",
+      "id": 126892,
+      "title": "\u003cp\u003eIntroducing NeoTLE — the best Discord bot for Codeforces\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710435927
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128091,
+      "commentatorHandle": "oursaco",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAs a tester, the problemsetters cooked.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710435912
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128090,
+      "commentatorHandle": "defnotmee",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI was really excited to do this contest but now i discovered that I'm a tester D:\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 2
+    },
+    "timeSeconds": 1710435811
+  },
+  {
+    "blogEntry": {
+      "rating": 154,
+      "authorHandle": "mesanu",
+      "id": 91381,
+      "title": "\u003cp\u003eCodeforces Round #726 (Div.2) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128089,
+      "commentatorHandle": "Priyanshu_1.618031",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eHow do you check if a suffix of the string is also its prefix? I did using set(stored all prefixes and then created suffixes one by one) but got MLE.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 805956,
+      "rating": 0
+    },
+    "timeSeconds": 1710435582
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "Norp",
+      "id": 127110,
+      "title": "\u003cp\u003ePupil in 80 days — Day 1\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128088,
+      "commentatorHandle": "robertlewantest",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAll the best \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710435239
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128087,
+      "commentatorHandle": "striker_46",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ewhere is leaderboard\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710434830
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128086,
+      "commentatorHandle": "Murad134",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eSo many testers !\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": -3
+    },
+    "timeSeconds": 1710434608
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128085,
+      "commentatorHandle": "Synaptic_Savant",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eActually the problem language is incomplete. you can only clear levels in increasing order of index. For ex: if you clear level 2 then you can't clear level 1 in the future. I wasted half hour for this.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128082,
+      "rating": 9
+    },
+    "timeSeconds": 1710433910
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128084,
+      "commentatorHandle": "lucius_fox",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eCongrats, \u003ca class=\"rated-user user-red\" href=\"/profile/Dominater069\" title=\"Grandmaster Dominater069\"\u003eDominater069\u003c/a\u003e on your first codeforces round!\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 1
+    },
+    "timeSeconds": 1710433799
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128083,
+      "commentatorHandle": "Ritu_1149",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u003ca class=\"rated-user user-blue\" href=\"/profile/panku_mahajan\" title=\"Expert panku_mahajan\"\u003epanku_mahajan\u003c/a\u003e don't set a contest ever again, and this contest was an absolute shit to do the rage quit.... most useless contest ever given\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 9
+    },
+    "timeSeconds": 1710433789
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128082,
+      "commentatorHandle": "Ritu_1149",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003efor the test case 4 AKA\u003c/p\u003e\u003cp\u003e5\u003c/p\u003e\u003cp\u003e5 2\u003c/p\u003e\u003cp\u003e2 3 6 1 8\u003c/p\u003e\u003cp\u003e5 2\u003c/p\u003e\u003cp\u003e2 9 6 2 8\u003c/p\u003e\u003cp\u003e5 2\u003c/p\u003e\u003cp\u003e7 4 2 7 3\u003c/p\u003e\u003cp\u003e5 2\u003c/p\u003e\u003cp\u003e3 1 6 8 1\u003c/p\u003e\u003cp\u003e5 2\u003c/p\u003e\u003cp\u003e9 8 7 6 5\u003c/p\u003e\u003cp\u003eMy output: 1 2 2 1 5\u003c/p\u003e\u003cp\u003eDesired Output: 2 2 2 1 6\u003c/p\u003e\u003cp\u003eThe 1st test and 5th test of this testcase are clearly wrongly output in the sample... what a shit problem setter...\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 9
+    },
+    "timeSeconds": 1710433498
+  },
+  {
+    "blogEntry": {
+      "rating": 16,
+      "authorHandle": "shiny_shine",
+      "id": 127056,
+      "title": "\u003cp\u003eAlternative __int128 without 64-bit compiler\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128081,
+      "commentatorHandle": "shiny_shine",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eIn fact it doesn't matter if you remove them\u003c/p\u003e\u003cp\u003ebut I think this impl has a better performance\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128080,
+      "rating": 0
+    },
+    "timeSeconds": 1710433387
+  },
+  {
+    "blogEntry": {
+      "rating": 16,
+      "authorHandle": "shiny_shine",
+      "id": 127056,
+      "title": "\u003cp\u003eAlternative __int128 without 64-bit compiler\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128080,
+      "commentatorHandle": "oversolver",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cpre\u003e\u003ccode\u003e    ll min(ll x,ll y){\n        return x\u0026lt;y?x:y;\n    }\n\n    ll max(ll x,ll y){\n        return x\u0026gt;y?x:y;\n    }\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003eSeriously?\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710432981
+  },
+  {
+    "blogEntry": {
+      "rating": 234,
+      "authorHandle": "huikang",
+      "id": 127049,
+      "title": "\u003cp\u003eCognition, competitive programmers, and Devin, the first AI software engineer\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128079,
+      "commentatorHandle": "ineedsleepsomuch",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eSuch a waste of talent.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": -8
+    },
+    "timeSeconds": 1710432191
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128078,
+      "commentatorHandle": "Synaptic_Savant",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eFor the problem \u003cstrong\u003ekLevel\u003c/strong\u003e TestCase 4 output seems wrong. Can you check please.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 6
+    },
+    "timeSeconds": 1710432085
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "Norp",
+      "id": 127110,
+      "title": "\u003cp\u003ePupil in 80 days — Day 1\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710431900
+  },
+  {
+    "blogEntry": {
+      "rating": 24,
+      "authorHandle": "lorenzotinfena",
+      "id": 127080,
+      "title": "\u003cp\u003eGolang template with a little boost in performance\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128077,
+      "commentatorHandle": "lorenzotinfena",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI should take a better look at it, but I think using directly syscall.Read permits you to make assumptions to the input such as ignoring errors, which improve performance, but of course in many cases these are little details.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128071,
+      "rating": 0
+    },
+    "timeSeconds": 1710431896
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128075,
+      "commentatorHandle": "prakriticoder",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eIn Round 1941(Div-3), I used Ideone but was not aware that it had public access to my code.My solutions 250660301,250754882 and 250701996 were copied by EducationalCPer and he used them in EducationalCPer/250661584, EducationalCPer/250754701 and EducationalCPer/250701704 and I have received a mail stating that Codeforces would block my account. This leak through ideone was purely unintentional and I would never use Ideone again. Please consider this as this was a grave mistake. Please return my ratings back for this contest. \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710431362
+  },
+  {
+    "blogEntry": {
+      "rating": 90,
+      "authorHandle": "4qqqq",
+      "id": 110092,
+      "title": "\u003cp\u003eCodeforces Round #837 (Div. 2) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128074,
+      "commentatorHandle": "abdelhakimlamnaouar",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eIn problem C, why the solution with time complexity O(n*sqrt(A)) wouldn't work?\u003c/p\u003e\u003cp\u003eIt should take 10^5 * sqrt(10^9) = 10^5 * 10^4 * sqrt(10) operations per second in the worst case, but since time limit per test is 3 seconds, then it should take about (10^5 * 10^4 * sqrt(10))/3 which is approximated to 10^9\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710431267
+  },
+  {
+    "blogEntry": {
+      "rating": 55,
+      "authorHandle": "natalina",
+      "id": 127018,
+      "title": "\u003cp\u003eCodeforces round 933 Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128073,
+      "commentatorHandle": "__Waled",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThere are \u003cstrong\u003etwo\u003c/strong\u003e problems here\u003c/p\u003e \u003cul\u003e   \u003cli\u003ethe line \u003ccode\u003eif (b[i] \u0026gt; md) break;\u003c/code\u003e is wrong.\u003c/li\u003e \u003c/ul\u003e\u003cp\u003econsider this test\u003c/p\u003e \u003cpre\u003e\u003ccode\u003e1\n2 1 1\n1 100\n98\n1\n\n\u003c/code\u003e\u003c/pre\u003e\u003cp\u003ehere is the answer is $$$98$$$, but your output is $$$99$$$. This happens because your code ignores any other value greater than the \u003ccode\u003emid\u003c/code\u003e. However a pair of number might work but their summation is greater than \u003ccode\u003emid\u003c/code\u003e, \u003cstrong\u003eas in the above test\u003c/strong\u003e\u003c/p\u003e \u003cul\u003e   \u003cli\u003eyou are also getting the \u003ccode\u003emid\u003c/code\u003e value wrong. In your code, \u003ccode\u003eint md = a[l] + a[r]/2;\u003c/code\u003e.\u003c/li\u003e \u003c/ul\u003e\u003cp\u003eConsider, $$$l=3, r = 5$$$, here $$$mid = 4$$$ however your $$$md = 5$$$ which is wrong value\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eIf anything isn't clear please don't hesitate to ask\u003c/strong\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1127881,
+      "rating": 0
+    },
+    "timeSeconds": 1710430998
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128072,
+      "commentatorHandle": "vstiff",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThanks. I thought it's something special that deserved highlighting in announcement\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128050,
+      "rating": 0
+    },
+    "timeSeconds": 1710430771
+  },
+  {
+    "blogEntry": {
+      "rating": 24,
+      "authorHandle": "lorenzotinfena",
+      "id": 127080,
+      "title": "\u003cp\u003eGolang template with a little boost in performance\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128071,
+      "commentatorHandle": "botayhard",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eyou can use bufio for input and output\u003c/p\u003e\u003cp\u003efor example \u003ca href=\"https://codeforces.com/contest/1941/submission/250680018\"\u003e250680018\u003c/a\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710430759
+  },
+  {
+    "blogEntry": {
+      "rating": 24,
+      "authorHandle": "lorenzotinfena",
+      "id": 127080,
+      "title": "\u003cp\u003eGolang template with a little boost in performance\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128070,
+      "commentatorHandle": "lorenzotinfena",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThanks!\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128068,
+      "rating": 0
+    },
+    "timeSeconds": 1710430391
+  },
+  {
+    "blogEntry": {
+      "rating": 4,
+      "authorHandle": "panku_mahajan",
+      "id": 127081,
+      "title": "\u003cp\u003e\u003cb\u003eInvitation to Encoder 2024 hosted by NIT Kurukshetra\u003c/b\u003e\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128069,
+      "commentatorHandle": "Ritu_1149",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003etell the prize list?\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 3
+    },
+    "timeSeconds": 1710429506
+  },
+  {
+    "blogEntry": {
+      "rating": 24,
+      "authorHandle": "lorenzotinfena",
+      "id": 127080,
+      "title": "\u003cp\u003eGolang template with a little boost in performance\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128068,
+      "commentatorHandle": "tofael1104",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAwesome template! \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": -7
+    },
+    "timeSeconds": 1710429303
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710429164
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128067,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u003ccode\u003eint n = rand(1, 1e5 / 2) * 2\u003c/code\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128066,
+      "rating": 2
+    },
+    "timeSeconds": 1710428969
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128066,
+      "commentatorHandle": "rustam-cpp",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eIn some problems, a number in the input data must be, for example, an even number\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128062,
+      "rating": 0
+    },
+    "timeSeconds": 1710428778
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128065,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI've never done hacking, but I believe whole purpose of hacking is to exploit a user's submission. It's often not random. Probably exploiting corner case, trying to get TLE, MLE, RE using deliberate testcases. And those who enjoy hacking, do know what they are doing. It's probably not useful for them either.\u003c/p\u003e\u003cp\u003eBut let's see, what others have to say.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128057,
+      "rating": 0
+    },
+    "timeSeconds": 1710428623
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128064,
+      "commentatorHandle": "TheScrasse",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAlso, does the contest length affect the problem difficulty?\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128052,
+      "rating": 21
+    },
+    "timeSeconds": 1710428577
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128063,
+      "commentatorHandle": "tofael1104",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eSecond contest during Ramadan! I hope the tasks will be interesting . Good Luck for every participant!\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": -5
+    },
+    "timeSeconds": 1710428412
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128062,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAnd why do you need a \u003ccode\u003egetint()\u003c/code\u003e function that generate nums in multiples of k?\u003c/p\u003e\u003cp\u003eIsn't the following enough? (To generate a number in range)\u003c/p\u003e \u003cpre\u003e\u003ccode\u003emt19937 mt(chrono::steady_clock::now().time_since_epoch().count());\nint rand(int l, int r) { return l + mt() % (r - l + 1); }\n\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e",
+      "parentCommentId": 1128055,
+      "rating": 0
+    },
+    "timeSeconds": 1710428279
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710428202
+  },
+  {
+    "blogEntry": {
+      "rating": -3,
+      "authorHandle": "YTAaron",
+      "id": 127108,
+      "title": "\u003cp\u003eCan anyone tell me how to make a useful blog???\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128061,
+      "commentatorHandle": "YTAaron",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eOk\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128056,
+      "rating": 0
+    },
+    "timeSeconds": 1710428198
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128060,
+      "commentatorHandle": "rustam-cpp",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u003ccode\u003esrand(time(NULL))\u003c/code\u003e — i forget about it =)\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128055,
+      "rating": 0
+    },
+    "timeSeconds": 1710428176
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128057,
+      "commentatorHandle": "rustam-cpp",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u0026quot;Are you teaching author's how to generate testcase?\u0026quot; — No, I do this: \u0026quot;This generator is also good for stress testing. Generating tests in a task is usually not very difficult. Also it can be used for hacks. You can generate a \u0026quot;maximal\u0026quot; test very easily.\u0026quot;\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128055,
+      "rating": 3
+    },
+    "timeSeconds": 1710428109
+  },
+  {
+    "blogEntry": {
+      "rating": -3,
+      "authorHandle": "YTAaron",
+      "id": 127108,
+      "title": "\u003cp\u003eCan anyone tell me how to make a useful blog???\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128056,
+      "commentatorHandle": "34z12000",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eOnly to hard problems\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128054,
+      "rating": 0
+    },
+    "timeSeconds": 1710428099
+  },
+  {
+    "blogEntry": {
+      "rating": -5,
+      "authorHandle": "rustam-cpp",
+      "id": 127104,
+      "title": "\u003cp\u003eTest generator on C++\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128055,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI'm having a hard time understanding the purpose of this blog. What's your target audience? Are you teaching author's how to generate testcase?\u003c/p\u003e\u003cp\u003eAlso, You used \u003ccode\u003erand()\u003c/code\u003e function without setting seed. Without it, every time you run it, this will generate same output. Better to set \u003ccode\u003esrand(time(NULL))\u003c/code\u003e. \u003c/p\u003e\u003cp\u003eOr even better, use \u003ccode\u003emt19937 mt(chrono::steady_clock::now().time_since_epoch().count());\u003c/code\u003e. Learn more about it \u003ca href=\"https://codeforces.com/blog/entry/61587\"\u003ehere\u003c/a\u003e.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710427877
+  },
+  {
+    "blogEntry": {
+      "rating": -3,
+      "authorHandle": "YTAaron",
+      "id": 127108,
+      "title": "\u003cp\u003eCan anyone tell me how to make a useful blog???\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128054,
+      "commentatorHandle": "YTAaron",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eWill writing solutions be useful?\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710427199
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128053,
+      "commentatorHandle": "anshul_169",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAs a participant, i will participate\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710427153
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128052,
+      "commentatorHandle": "nor",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eIn my opinion, there should be at least these factors influencing problem rating. Note that I don't know how problem ratings are computed, but I am sure some of these factors can be factored into the computation in a much better manner than currently done.\u003c/p\u003e \u003cul\u003e   \u003cli\u003e\u003cp\u003ePriors from contest setters as an initial estimate: since problem authors try to order problems in order of perceived difficulty, a good initial estimate for difficulty (that can supposedly be corrected incrementally after the contest) can be a prior that comes from the usual rating distribution from a round that has a similar structure. For example, in a 5 problem Div2, the \u0026quot;seed\u0026quot; ratings can be just some kind of weighted mean of the last few 5-problem Div2 contests, and/or a rating distribution that could be proposed by the author based on testers' perception. This will be particularly helpful for problems with a small number of solves.\u003c/p\u003e\u003c/li\u003e   \u003cli\u003e\u003cp\u003eInverse variance contribution: people who stay at a similar rating tend to have sharper boundary of what they can solve in-contest and what they cannot. Also, people who have a higher rating variance either don't do contests with an optimal strategy in mind, or they just have some topics that they are much stronger at, compared to other topics. Thus, giving more weight to people with lower rating variance (or just some norm of rating change) should be beneficial.\u003c/p\u003e\u003c/li\u003e   \u003cli\u003e\u003cp\u003eMore contribution to in-contest solvers: this is probably already accounted for, but it is more important to look at who solved problems in-contest. Only in case there are too few in-contest solves does it make sense to rely on out of contest solvers. However we often see newbies and other low rated people just copy-paste submissions, so this is not as robust as relying on the prior implied by the authors, unless there are a large number of appropriately rated solvers.\u003c/p\u003e\u003c/li\u003e   \u003cli\u003e\u003cp\u003eSet rating variance of people within first few contests (or participating for the first time in a very long time) to be higher than usual — this can be done in a continuous manner too instead of just defining arbitrary discrete cutoffs.\u003c/p\u003e\u003c/li\u003e \u003c/ul\u003e\u003cp\u003eI am also curious about how problem ratings are currently computed, so I hope to know how it works and that these suggestions are taken into account.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1127824,
+      "rating": 20
+    },
+    "timeSeconds": 1710427004
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128051,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThat's good. If you know you're good in coding, you'll be better doing it honestly than cheating. \u003c/p\u003e\u003cp\u003e\u003cstrong\u003eMy advice:\u003c/strong\u003e Don't care about rating. Focus on practicing. Even if your contest is going bad, you might have urge to open youtube/whatsapp/telegram but resist it and you shall feel proud of yourself. Even if you lose -60, you'll gain it back in next few contests. A coder can never reach top standing with cheating.\u003c/p\u003e\u003cp\u003eI wish you all the best in your honest CP journey.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128044,
+      "rating": 1
+    },
+    "timeSeconds": 1710426875
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128050,
+      "commentatorHandle": "hashman",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eSubtask means the problem will be divided into two parts, one will be easier with lower constraints and one will be harder with higher constraints.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128043,
+      "rating": 0
+    },
+    "timeSeconds": 1710426857
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128049,
+      "commentatorHandle": "hashman",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI understand if you don't like it, it is slightly different, but calling it cringe without any feedback isn't very nice, don't you think? :)\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128025,
+      "rating": 11
+    },
+    "timeSeconds": 1710426786
+  },
+  {
+    "blogEntry": {
+      "rating": -3,
+      "authorHandle": "YTAaron",
+      "id": 127108,
+      "title": "\u003cp\u003eCan anyone tell me how to make a useful blog???\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128047,
+      "commentatorHandle": "YTAaron",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThank you for commenting, I will try to write useful ones in the future anyway.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128046,
+      "rating": 0
+    },
+    "timeSeconds": 1710426444
+  },
+  {
+    "blogEntry": {
+      "rating": -3,
+      "authorHandle": "YTAaron",
+      "id": 127108,
+      "title": "\u003cp\u003eCan anyone tell me how to make a useful blog???\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128046,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI mean... Make blogs only when you have something useful to share to community and not just for the sake of making blog or gaining contribution. Isn't it simple?\u003c/p\u003e\u003cp\u003eI too have a \u003ca href=\"https://codeforces.com/blog/entry/125435\"\u003euseful blog\u003c/a\u003e which I'm proud of along with a \u003ca href=\"https://codeforces.com/blog/entry/125673\"\u003euseless blog\u003c/a\u003e (I admit it)\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710426274
+  },
+  {
+    "blogEntry": {
+      "rating": 58,
+      "authorHandle": "flamestorm",
+      "id": 107962,
+      "title": "\u003cp\u003eCodeforces Round #827 (Div. 4) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128045,
+      "commentatorHandle": "_NITHINREDDY",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u003ca href=\"/contest/1742/submission/251250861\" title=\"Submission 251250861 by _NITHINREDDY\"\u003e251250861\u003c/a\u003e whats wrong with my code it gives the correct output in the editor \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710426076
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128044,
+      "commentatorHandle": "architect_",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e\u003ca class=\"rated-user user-blue\" href=\"/profile/Anshul_Johri\" title=\"Expert Anshul_Johri\"\u003eAnshul_Johri\u003c/a\u003e ok I accept the mistake,I cheated for 5th q and will not do it again Now I am not saying this because I don't want to be banned or something but I realized that if I can do 4 q's(div3) on my own I can do 5th too in some time. thanks\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128042,
+      "rating": 0
+    },
+    "timeSeconds": 1710425995
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128043,
+      "commentatorHandle": "vstiff",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eWhat is a subtask? Are there any prior examples to try it?\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710425637
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128042,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eYeah, that makes sense.\u003c/p\u003e\u003cp\u003eHey \u003ca class=\"rated-user user-gray\" href=\"/profile/architect_\" title=\"Newbie architect_\"\u003earchitect_\u003c/a\u003e, would you mind updating us when you get banned so we can figure out the relative proportion?\u003c/p\u003e\u003cp\u003eBut wait... how will you do that?\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128035,
+      "rating": 0
+    },
+    "timeSeconds": 1710425420
+  },
+  {
+    "blogEntry": {
+      "rating": -3,
+      "authorHandle": "YTAaron",
+      "id": 127108,
+      "title": "\u003cp\u003eCan anyone tell me how to make a useful blog???\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710425170
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128035,
+      "commentatorHandle": "Heap_OverFlow",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eYes, I saw banned after 5 contests too.\u003c/p\u003e\u003cp\u003eMost probably, \u003cstrong\u003erelative\u003c/strong\u003e. Like the one banned after 5 contests had 12 contests in total. The one banned after 9 contests had 74 contests in total. Yes, it can be manual sure and more related to warnings(for instance, if you leaked the code or toxic social content) than skipped verdicts\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128032,
+      "rating": 9
+    },
+    "timeSeconds": 1710423234
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128032,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eI've seen accounts getting banned under 5 skipped contests. And now you've mentioned that some gets banned after 9 contests. \u003c/p\u003e\u003cp\u003eI don't like that codeforces doesn't clarify so many rules. Is banning manual or automated? If it is automated, is it absolute or relative? Absolute means getting banned after x contests. Relative means after a proportion, like (skipped contests/ total contest).\u003c/p\u003e\u003cp\u003eLogically, as banning is a strict move, it is possible that it would be manual.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128030,
+      "rating": 8
+    },
+    "timeSeconds": 1710422643
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128031,
+      "commentatorHandle": "009_Ajeet",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003esame \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1126533,
+      "rating": 0
+    },
+    "timeSeconds": 1710422592
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128030,
+      "commentatorHandle": "Heap_OverFlow",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eNp. I don't see he enrolled in many contests so I guess 6 is more than enough to be banned. But I had previously seen a \u003cstrong\u003eBAN\u003c/strong\u003e after \u003cstrong\u003e9\u003c/strong\u003e skipped contests, but had enrolled in like +70 contests. \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128020,
+      "rating": 13
+    },
+    "timeSeconds": 1710422037
+  },
+  {
+    "blogEntry": {
+      "rating": 197,
+      "authorHandle": "wuhudsm",
+      "id": 126513,
+      "title": "\u003cp\u003eCodeforces Round 930 (Div. 1, Div. 2) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128029,
+      "commentatorHandle": "wuhudsm",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThx,typo fixed.\u003c/p\u003e\u003cp\u003eYou can read \u003ca href=\"https://mirror.codeforces.com/blog/entry/18842\"\u003ehttps://mirror.codeforces.com/blog/entry/18842\u003c/a\u003e for D\u0026amp;C + FFT tricks(in DIV1E).\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1127697,
+      "rating": 0
+    },
+    "timeSeconds": 1710422022
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128028,
+      "commentatorHandle": "nonrice",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eIs also correct\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128027,
+      "rating": 1
+    },
+    "timeSeconds": 1710421899
+  },
+  {
+    "blogEntry": {
+      "rating": 319,
+      "authorHandle": "galen_colin",
+      "id": 126799,
+      "title": "\u003cp\u003efix problem ratings pls (the rainboy effect)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128027,
+      "commentatorHandle": "early-morning-dreams",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eInitially, I read this as \u003ccode\u003e3500 != 2.39..\u003c/code\u003e\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1125855,
+      "rating": 11
+    },
+    "timeSeconds": 1710421828
+  },
+  {
+    "blogEntry": {
+      "rating": 197,
+      "authorHandle": "wuhudsm",
+      "id": 126513,
+      "title": "\u003cp\u003eCodeforces Round 930 (Div. 1, Div. 2) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710421805
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128026,
+      "commentatorHandle": "harshsharma2024",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eYour solution 250774158 for the problem 1941F significantly coincides with solutions harshsharma2024/250774158, TLExceeded/250796278, codingishard8/250800925, Fusu/250810532, 2.16/250811985.\u003c/p\u003e\u003cp\u003eHere is my code : [\u003ca href=\"https://codeforces.com/contest/1941/submission/250774158\"\u003eAccepted\u003c/a\u003e] after getting wrong answer with this code : [\u003ca href=\"https://codeforces.com/contest/1941/submission/250762603\"\u003eWrong answer\u003c/a\u003e] and after 3 minutes from getting the wrong answer. I swear that I didn't cheat in the contest, and all the codes in this contest were written by only me and I didn't use any online IDE.\u003c/p\u003e\u003cp\u003eAnd I didn't like this Plagiarism Mistake at all, not fair facing like these obstacles to get a new rate, specially when I am too close to the new rate.\u003c/p\u003e\u003cp\u003e[\u003ca href=\"https://codeforces.com/profile/MikeMirzayanov\"\u003eMikeMirzayanov\u003c/a\u003e] I've compared the solution and I think the similarity between them is normal and many user could do such a solution.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": -5
+    },
+    "timeSeconds": 1710421754
+  },
+  {
+    "blogEntry": {
+      "rating": 164,
+      "authorHandle": "Dominater069",
+      "id": 127094,
+      "title": "\u003cp\u003eCodeforces Round #934 (Div1, Div2)\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128025,
+      "commentatorHandle": "Amir_Parsa",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eCringe announcement\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": -17
+    },
+    "timeSeconds": 1710421509
+  },
+  {
+    "blogEntry": {
+      "rating": 6,
+      "authorHandle": "Cpp_Writer",
+      "id": 127105,
+      "title": "\u003cp\u003eVote the top 10 buzzwords on Codeforces\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128024,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eNot a word, but a sentence. Never seen anything appear more than this.\u003c/p\u003e\u003cp\u003e\u003ca href=\"https://codeforces.com/blog/entry/8790\"\u003eRule about third-party code is changing\u003c/a\u003e\u003c/p\u003e\u003cp\u003e\u003cbr /\u003e\u003c/p\u003e \u003cdiv class=\"spoiler\"\u003e\u003cb class=\"spoiler-title\"\u003eComments on the blogs were meant to be\u003c/b\u003e\u003cdiv class=\"spoiler-content\" style=\"display: none;\"\u003e\u003cp\u003eIf you have conclusive evidence that a coincidence has occurred \u003cstrong\u003edue to the use of a common source published before the competition,\u003c/strong\u003e write a comment to post about the round with all the details.\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e \u003cdiv class=\"spoiler\"\u003e\u003cb class=\"spoiler-title\"\u003eComments on the blogs are\u003c/b\u003e\u003cdiv class=\"spoiler-content\" style=\"display: none;\"\u003e\u003cp\u003eI was using Ideone by mistake. I swear someone stole my code, please give my ratings back.\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 30
+    },
+    "timeSeconds": 1710421349
+  },
+  {
+    "blogEntry": {
+      "rating": 350,
+      "authorHandle": "BERNARD",
+      "id": 126986,
+      "title": "\u003cp\u003eIt is impossible to catch cheating when the problems are simple enough\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128023,
+      "commentatorHandle": "bicsi",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThat moment when whitespace tells you more than the code itself…\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 10
+    },
+    "timeSeconds": 1710421241
+  },
+  {
+    "blogEntry": {
+      "rating": 127,
+      "authorHandle": "Artyom123",
+      "id": 125740,
+      "title": "\u003cp\u003eCodeforces Round 924 Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128022,
+      "commentatorHandle": "kzyzahk",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003e.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710420816
+  },
+  {
+    "blogEntry": {
+      "rating": 16,
+      "authorHandle": "gs15120",
+      "id": 71401,
+      "title": "\u003cp\u003eWhere can I train solving math problems?\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128021,
+      "commentatorHandle": "Inij245",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eis project euler a good site to brush up on my math \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 557738,
+      "rating": -3
+    },
+    "timeSeconds": 1710420785
+  },
+  {
+    "blogEntry": {
+      "rating": 6,
+      "authorHandle": "Cpp_Writer",
+      "id": 127105,
+      "title": "\u003cp\u003eVote the top 10 buzzwords on Codeforces\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710420758
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128020,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eThis guy got skipped in 6 contests. Why isn't he banned yet? \u003ca class=\"rated-user user-gray\" href=\"/profile/Heap_OverFlow\" title=\"Новичок Heap_OverFlow\"\u003eHeap_OverFlow\u003c/a\u003e, do you know the threshold for automatic ban? (Sorry for tagging you, I need answers)\u003c/p\u003e \u003cdiv class=\"spoiler\"\u003e\u003cb class=\"spoiler-title\"\u003eSpoiler\u003c/b\u003e\u003cdiv class=\"spoiler-content\" style=\"display: none;\"\u003e\u003cp\u003e1 \u003cimg alt=\" \" src=\"/predownloaded/b7/33/b73389f6ac2d621461d0fe9f59f9bb80557ff264.png\" style=\"max-width: 100.0%;max-height: 100.0%;\" /\u003e 2 \u003cimg alt=\" \" src=\"/predownloaded/2d/27/2d27a3e8cd6d5da08287abc9740756dfe1e5518b.png\" style=\"max-width: 100.0%;max-height: 100.0%;\" /\u003e 3 \u003cimg alt=\" \" src=\"/predownloaded/87/60/8760191a70e32c236782a7f51d7856bd1a029d3f.png\" style=\"max-width: 100.0%;max-height: 100.0%;\" /\u003e 4 \u003cimg alt=\" \" src=\"/predownloaded/d7/dc/d7dc68c02d82964fb4ce79777e2c7b7fd40f6f2f.png\" style=\"max-width: 100.0%;max-height: 100.0%;\" /\u003e 5 \u003cimg alt=\" \" src=\"/predownloaded/7c/17/7c17b7058d41eb4ba5970feb22218f462fc07eb1.png\" style=\"max-width: 100.0%;max-height: 100.0%;\" /\u003e 6 \u003cimg alt=\" \" src=\"/predownloaded/db/7b/db7b77d36cd26c7bd145ed6a528c3964902964f3.png\" style=\"max-width: 100.0%;max-height: 100.0%;\" /\u003e\u003c/p\u003e\u003c/div\u003e\u003c/div\u003e\u003c/div\u003e",
+      "parentCommentId": 1127982,
+      "rating": 14
+    },
+    "timeSeconds": 1710420707
+  },
+  {
+    "blogEntry": {
+      "rating": 3,
+      "authorHandle": "Inij245",
+      "id": 127103,
+      "title": "\u003cp\u003eAnyone find this relatable? Have trouble focusing.\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710420094
+  },
+  {
+    "blogEntry": {
+      "rating": 13,
+      "authorHandle": "Norp",
+      "id": 127035,
+      "title": "\u003cp\u003eWhat should I do?\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128018,
+      "commentatorHandle": "vivek_coder_9",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eYes \u003ca class=\"rated-user user-blue\" href=\"/profile/Sorlag\" title=\"Expert Sorlag\"\u003eSorlag\u003c/a\u003e! You should! would be very helpful\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1127927,
+      "rating": 0
+    },
+    "timeSeconds": 1710418909
+  },
+  {
+    "blogEntry": {
+      "rating": 234,
+      "authorHandle": "huikang",
+      "id": 127049,
+      "title": "\u003cp\u003eCognition, competitive programmers, and Devin, the first AI software engineer\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128017,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eWait till Farm-GPT comes into picture. These elite coders will probably automate farming someday.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128015,
+      "rating": 10
+    },
+    "timeSeconds": 1710417892
+  },
+  {
+    "blogEntry": {
+      "rating": 234,
+      "authorHandle": "huikang",
+      "id": 127049,
+      "title": "\u003cp\u003eCognition, competitive programmers, and Devin, the first AI software engineer\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128016,
+      "commentatorHandle": "Anshul_Johri",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eIt is Game of Thrones reference. It equivalent to Threat is coming.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1128004,
+      "rating": -1
+    },
+    "timeSeconds": 1710417763
+  },
+  {
+    "blogEntry": {
+      "rating": 234,
+      "authorHandle": "huikang",
+      "id": 127049,
+      "title": "\u003cp\u003eCognition, competitive programmers, and Devin, the first AI software engineer\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128015,
+      "commentatorHandle": "Thanos_I_am_inevitable",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eShould i stop doing coding then? and start agriculture because you cant automate that and people are going to eat food anyway.\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 4
+    },
+    "timeSeconds": 1710416925
+  },
+  {
+    "blogEntry": {
+      "rating": 75,
+      "authorHandle": "george_stelian",
+      "id": 125858,
+      "title": "\u003cp\u003e\u0026quot;Adolescent Grigore Moisil\u0026quot; (AGM) International Programming Contest 2024\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 0,
+      "commentatorHandle": "",
+      "text": "",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710416786
+  },
+  {
+    "blogEntry": {
+      "rating": 111,
+      "authorHandle": "MikeMirzayanov",
+      "id": 8790,
+      "title": "\u003cp\u003eRule about third-party code is changing\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128013,
+      "commentatorHandle": "Heap_OverFlow",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eHats off to the setters of last div3, kinda difficult B for its position but it caught cheaters xD \u003c/p\u003e\u003cp\u003eedit : skipped in Div2, Binary paths not last div3, but still same point holds for both contests\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1126395,
+      "rating": 16
+    },
+    "timeSeconds": 1710416136
+  },
+  {
+    "blogEntry": {
+      "rating": 197,
+      "authorHandle": "wuhudsm",
+      "id": 126513,
+      "title": "\u003cp\u003eCodeforces Round 930 (Div. 1, Div. 2) Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128012,
+      "commentatorHandle": "stup_bitch",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eD1E, am I right that last_i = max(j\u0026lt;i)(P_j!=P_i)? Or j can be greater than i?\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 0,
+      "rating": 0
+    },
+    "timeSeconds": 1710415993
+  },
+  {
+    "blogEntry": {
+      "rating": 177,
+      "authorHandle": "GDCass1ni",
+      "id": 126780,
+      "title": "\u003cp\u003eStop writting editorials for MIKE.\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128011,
+      "commentatorHandle": "Heap_OverFlow",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003eAttractors wanna get back to 5 divisibility, and be -30 ! \u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1127988,
+      "rating": 24
+    },
+    "timeSeconds": 1710415985
+  },
+  {
+    "blogEntry": {
+      "rating": 55,
+      "authorHandle": "natalina",
+      "id": 127018,
+      "title": "\u003cp\u003eCodeforces round 933 Editorial\u003c/p\u003e"
+    },
+    "comment": {
+      "id": 1128010,
+      "commentatorHandle": "Gordon-Freeman",
+      "text": "\u003cdiv class=\"ttypography\"\u003e\u003cp\u003ei will definitely give it a look , thanks for the help\u003c/p\u003e\u003c/div\u003e",
+      "parentCommentId": 1127877,
+      "rating": 0
+    },
+    "timeSeconds": 1710415657
+  }
+]
